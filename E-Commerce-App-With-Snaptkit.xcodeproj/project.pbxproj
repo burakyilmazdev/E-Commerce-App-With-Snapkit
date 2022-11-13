@@ -13,9 +13,12 @@
 		6574F2F82921178800D930A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6574F2F62921178800D930A8 /* Main.storyboard */; };
 		6574F2FA2921178A00D930A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6574F2F92921178A00D930A8 /* Assets.xcassets */; };
 		6574F2FD2921178A00D930A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6574F2FB2921178A00D930A8 /* LaunchScreen.storyboard */; };
+		C585FC25D550FDFBEA6BE156 /* Pods_E_Commerce_App_With_Snaptkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C6F94D45982566F9924D4B /* Pods_E_Commerce_App_With_Snaptkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		396A4AA44DFDACCD4C872C26 /* Pods-E-Commerce-App-With-Snaptkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Commerce-App-With-Snaptkit.release.xcconfig"; path = "Target Support Files/Pods-E-Commerce-App-With-Snaptkit/Pods-E-Commerce-App-With-Snaptkit.release.xcconfig"; sourceTree = "<group>"; };
+		55C6F94D45982566F9924D4B /* Pods_E_Commerce_App_With_Snaptkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Commerce_App_With_Snaptkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6574F2ED2921178800D930A8 /* E-Commerce-App-With-Snaptkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Commerce-App-With-Snaptkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6574F2F02921178800D930A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6574F2F22921178800D930A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		6574F2F92921178A00D930A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6574F2FC2921178A00D930A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6574F2FE2921178A00D930A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFFC59ED26DB3DCFC553F5A /* Pods-E-Commerce-App-With-Snaptkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Commerce-App-With-Snaptkit.debug.xcconfig"; path = "Target Support Files/Pods-E-Commerce-App-With-Snaptkit/Pods-E-Commerce-App-With-Snaptkit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C585FC25D550FDFBEA6BE156 /* Pods_E_Commerce_App_With_Snaptkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				6574F2EF2921178800D930A8 /* E-Commerce-App-With-Snaptkit */,
 				6574F2EE2921178800D930A8 /* Products */,
+				9C80D9E045DB59D27A3B3792 /* Pods */,
+				667D04D51E41E945A1D03E17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = "E-Commerce-App-With-Snaptkit";
 			sourceTree = "<group>";
 		};
+		667D04D51E41E945A1D03E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C6F94D45982566F9924D4B /* Pods_E_Commerce_App_With_Snaptkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C80D9E045DB59D27A3B3792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEFFC59ED26DB3DCFC553F5A /* Pods-E-Commerce-App-With-Snaptkit.debug.xcconfig */,
+				396A4AA44DFDACCD4C872C26 /* Pods-E-Commerce-App-With-Snaptkit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6574F3012921178A00D930A8 /* Build configuration list for PBXNativeTarget "E-Commerce-App-With-Snaptkit" */;
 			buildPhases = (
+				12F8F44FA58499B2EAA6C9E4 /* [CP] Check Pods Manifest.lock */,
 				6574F2E92921178800D930A8 /* Sources */,
 				6574F2EA2921178800D930A8 /* Frameworks */,
 				6574F2EB2921178800D930A8 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F8F44FA58499B2EAA6C9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-Commerce-App-With-Snaptkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6574F2E92921178800D930A8 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		6574F3022921178A00D930A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFFC59ED26DB3DCFC553F5A /* Pods-E-Commerce-App-With-Snaptkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +362,7 @@
 		};
 		6574F3032921178A00D930A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 396A4AA44DFDACCD4C872C26 /* Pods-E-Commerce-App-With-Snaptkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
